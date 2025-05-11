@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // Other options...
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["vitest/globals","@testing-library/jest-dom"],  // Add Vitest globals to enable test functions like expect, describe, etc.
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
